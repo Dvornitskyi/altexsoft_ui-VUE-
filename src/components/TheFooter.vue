@@ -1,84 +1,108 @@
 <template>
-<div class="footer">
+  <div class="footer">
     <div class="footer__section">
-        <div class="footer__first-collum">
-            <h3 class="footer__title">Company Details</h3>
-            <hr class="footer__hr">
-            <ul class="footer__first-first-list">
-                <li class="footer__first-text">Company Name</li>
-                <li class="footer__first-text">Street Name & Number</li>
-                <li class="footer__first-text">Town</li>
-                <li class="footer__first-text">Postcode/Zip</li>
-            </ul>
-            <ul class="footer__first-second-list">
-                <li class="footer__first-text">Tel: xxxxx xxxxxxxxxx</li>
-                <li class="footer__first-text">Fax: xxxxx xxxxxxxxxx</li>
-                <li class="footer__first-text">Email:<a href="#" class="footer__first-link"></a>>contact@mydomain.com</a></li>
-            </ul>
-            <ul class="footer__first-third-list">
-                <li class="footer__first-text subtitle">Office Hours</li>
-                <li class="footer__first-text">Monday - Friday: 08:00 - 17:30</li>
-                <li class="footer__first-text">Saturday: 08:00 - 13:00</li>
-            </ul>
+      <div class="footer__first-collum">
+        <h3 class="footer__title">Company Details</h3>
+        <hr class="footer__hr" />
+        <ul class="footer__first-first-list">
+          <li class="footer__first-text">Company Name</li>
+          <li class="footer__first-text">Street & Name Number</li>
+          <li class="footer__first-text">Town</li>
+          <li class="footer__first-text">Postcode/Zip</li>
+        </ul>
+        <ul class="footer__first-second-list">
+          <li class="footer__first-text">Tel: xxxxx xxxxxxxxxx</li>
+          <li class="footer__first-text">Fax: xxxxx xxxxxxxxxx</li>
+          <li class="footer__first-text">
+            Email:<a href="#" class="footer__first-link"
+              >>contact@mydomain.com</a
+            >
+          </li>
+        </ul>
+        <ul class="footer__first-third-list">
+          <li class="footer__first-text subtitle">Office Hours</li>
+          <li class="footer__first-text">Monday - Friday: 08:00 - 17:30</li>
+          <li class="footer__first-text">Saturday: 08:00 - 13:00</li>
+        </ul>
+      </div>
+      <div class="footer__second-collum">
+        <h3 class="footer__title">Stay Social</h3>
+        <hr class="footer__hr second-hr" />
+        <div class="footer__second-area">
+          <a class="footer__second-icon" href="#"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a class="footer__second-link" href="#">Get linked up in LinkedIn</a>
         </div>
-        <div class="footer__second-collum">
-            <h3 class="footer__title">Stay Social</h3>
-            <hr class="footer__hr second-hr">
-            <div class="footer__second-area">
-                <a class="footer__second-icon" href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a class="footer__second-link" href="#">Get linked up in LinkedIn</a>
-            </div>
-            <hr class="footer__hr">
-            <div class="footer__second-area">
-                <a class="footer__second-icon" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="footer__second-link" href="#">Keep up with our Tweets</a>
-            </div>
-            <hr class="footer__hr">
-            <div class="footer__second-area">
-                <a class="footer__second-icon" href="#"><i class="fab fa-pinterest"></i></a>
-                <a class="footer__second-link" href="#">Photos on Pinterest</a>
-            </div>
-            <hr class="footer__hr">
-            <div class="footer__second-area">
-                <a class="footer__second-icon" href="#"><i class="fas fa-rss"></i></a>
-                <a class="footer__second-link" href="#">Photos on Pinterest</a>
-            </div>
-            <hr class="footer__hr">
+        <hr class="footer__hr" />
+        <div class="footer__second-area">
+          <a class="footer__second-icon" href="#"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a class="footer__second-link" href="#">Keep up with our Tweets</a>
         </div>
-        <div class="footer__third-collum">
-            <h3 class="footer__title">From The Blog</h3>
-            <hr class="footer__hr">
-            <div class="footer__third-area">
-                <h5 class="footer__third-subtitle">Blog Post Title</h5>
-                <p class="footer__third-text">Posted by Admin on 00.00.0000</p>
-                <p class="footer__third-subtext">Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed facilispede estibulum.</p>
-                <a class="footer__third-link" href="">Read More »</a>
-            </div>
-            <div class="footer__third-area">
-                <h5 class="footer__third-subtitle">Blog Post Title</h5>
-                <p class="footer__third-text">Posted by Admin on 00.00.0000</p>
-                <p class="footer__third-subtext">Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed facilispede estibulum.</p>
-                <a class="footer__third-link" href="">Read More »</a>
-            </div>
+        <hr class="footer__hr" />
+        <div class="footer__second-area">
+          <a class="footer__second-icon" href="#"
+            ><i class="fab fa-pinterest"></i
+          ></a>
+          <a class="footer__second-link" href="#">Photos on Pinterest</a>
         </div>
-        <div class="footer__fourth-collum">
-            <h3 class="footer__title">Contact Us</h3>
-            <hr class="footer__hr">
-            <form action="#" class="footer__fourth-area">
-                <input class="footer__fourth-name" type="text" placeholder="Name">
-                <input class="footer__fourth-email" type="email" placeholder="Email">
-                <textarea class="footer__fourth-message" name="text" placeholder="Message"></textarea>
-                <input class="footer__fourth-submit" type="submit" value="SUBMIT">
-            </form>
+        <hr class="footer__hr" />
+        <div class="footer__second-area">
+          <a class="footer__second-icon" href="#"><i class="fas fa-rss"></i></a>
+          <a class="footer__second-link" href="#">Photos on Pinterest</a>
         </div>
+        <hr class="footer__hr" />
+      </div>
+      <div class="footer__third-collum">
+        <h3 class="footer__title">From The Blog</h3>
+        <hr class="footer__hr" />
+        <div class="footer__third-area">
+          <h5 class="footer__third-subtitle">Blog Post Title</h5>
+          <p class="footer__third-text">Posted by Admin on 00.00.0000</p>
+          <p class="footer__third-subtext">
+            Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean
+            elit intesque sed facilispede estibulum.
+          </p>
+          <a class="footer__third-link" href="">Read More »</a>
+        </div>
+        <div class="footer__third-area">
+          <h5 class="footer__third-subtitle">Blog Post Title</h5>
+          <p class="footer__third-text">Posted by Admin on 00.00.0000</p>
+          <p class="footer__third-subtext">
+            Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean
+            elit intesque sed facilispede estibulum.
+          </p>
+          <a class="footer__third-link" href="">Read More »</a>
+        </div>
+      </div>
+      <div class="footer__fourth-collum">
+        <h3 class="footer__title">Contact Us</h3>
+        <hr class="footer__hr" />
+        <form action="#" class="footer__fourth-area">
+          <input class="footer__fourth-name" type="text" placeholder="Name" />
+          <input
+            class="footer__fourth-email"
+            type="email"
+            placeholder="Email"
+          />
+          <textarea
+            class="footer__fourth-message"
+            name="text"
+            placeholder="Message"
+          ></textarea>
+          <input class="footer__fourth-submit" type="submit" value="SUBMIT" />
+        </form>
+      </div>
     </div>
-</div>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'TheFooter'
-}
+  name: "TheFooter",
+};
 </script>
 
 <style lang="scss">
@@ -263,5 +287,4 @@ export default {
     }
   }
 }
-
 </style>
